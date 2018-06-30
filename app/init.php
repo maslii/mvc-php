@@ -6,10 +6,11 @@
     
     require_once PATH_CORE.'Database.php';
     require_once PATH_CORE.'Cookie.php';
-    require_once PATH_CORE.'Product.php';
-    require_once PATH_CORE.'Cart.php';
     require_once PATH_CORE.'View.php';
     require_once PATH_CORE.'Controller.php';
     require_once PATH_CORE.'App.php';
+
+    require_once PATH_SHOP.'Product.php';
+    require_once PATH_SHOP.'Cart.php';
     
     require_once PATH_MODELS.'ProductModel.php';

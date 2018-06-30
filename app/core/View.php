@@ -1,7 +1,5 @@
 <?php
 
-// Клас для роботи з шаблонами.
-
 class View
 {
     private $viewTitle;

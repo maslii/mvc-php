@@ -1,8 +1,5 @@
 <?php
 
-// Шаблон розбору url: /controller/action/param1/param2...
-// url передається в якості GET параметру, просте можна використати змінну $_SERVER['REQUEST_URI']
-
 class App
 {
     private $actionName;

@@ -1,8 +1,5 @@
 <?php
 
-// Клас для роботи з корзиною.
-//Містить масив товарів представлених класом Product та функції для маніпуляції корзиною.
-
 class Cart
 {
     private $products;
@@ -61,9 +58,6 @@ class Cart
         if ($this->cookie->get('products') === null) {
             $this->products = [];
         } else {
-            
-            // єдиний (в даний момент) спосіб перевірити правильність десеріалізації
-            
             $unserialized = @unserialize(
                 $this->cookie->get('products'),
                 [Product::class]
