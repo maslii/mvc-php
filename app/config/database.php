@@ -5,4 +5,4 @@
     define('DATABASE_NAME', 'shop');
     define('DATABASE_CHARSET', 'utf8mb4');
     define('DATABASE_USER_NAME', 'root');
-    define('DATABASE_USER_PASSWORD', '');
+    define('DATABASE_USER_PASSWORD', 'root');

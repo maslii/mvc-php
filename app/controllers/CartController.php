@@ -25,13 +25,9 @@ class CartController extends Controller
 
     public function add()
     {
-        $m = $_SERVER['REQUEST_METHOD'];
-
         $id = $_POST['id'];
         $cnt = $_POST['count'];
         $price = $_POST['price'];
-
-        // Можна винести в окремий клас при потребі
 
         filter_var($id, FILTER_SANITIZE_NUMBER_INT);
         filter_var($price, FILTER_SANITIZE_NUMBER_INT);
